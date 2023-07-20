@@ -1,48 +1,80 @@
-body{
-font-family: 'Roboto', sans-serif;
-color: var(--navyblue, #2E2F42);
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue, #2e2f42);
 }
 
-.logo{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.16666667;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+a {
+  text-decoration: none;
+  color: var(--navyblue, #2e2f42);
+  font-family: "Roboto", sans-serif;
 }
 
-.web{
-    color: var(--iris, #4D5AE5);
+ul,
+li {
+  display: inline-block;
+}
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16666667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-.navigation{
-color: var(--navyblue, #2E2F42);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+.web {
+  color: var(--iris, #4d5ae5);
 }
 
-.address{
-color: var(--slate, #434455);
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+.navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
-.buttons{
-    color: var(--iris, #4D5AE5);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
-    display: flex;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.buttons {
+  display: inline-flex;
+  gap: 24px;
+}
+li > button {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--cloud, #f4f4fd);
+  display: inline-block;
+  padding: 12px 24px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+button:focus {
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white, #fff);
 }
