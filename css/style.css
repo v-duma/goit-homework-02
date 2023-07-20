@@ -1,7 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-background-color: #FFFFFF;
+  background-color: #ffffff;
+}
+
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --white: #fff;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
 }
 
 .link {
@@ -10,36 +19,30 @@ background-color: #FFFFFF;
   font-family: "Roboto", sans-serif;
 }
 
-:root {
-  --navyblue: #2e2f42;
-  --iris: #4d5ae5;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
---slate: #434455;
-}
 .logo {
-font-family: "Raleway", sans-serif;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .span-studio {
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 
-.studio{
-    font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.studio {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
 .navigation {
@@ -55,74 +58,57 @@ letter-spacing: 0.03em;
 .contacts:focus,
 .studio:hover,
 .studio:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .address {
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-font-style: normal;
+  font-style: normal;
 }
 
-.contacts{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.section-buttons{
-    background-color: var(---navyblue, #2e2f42);
-}
-.h-section-one{
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
-}
-
-.first-button{
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-
-}
-li > button {
-  color: var(--iris, #4d5ae5);
-  text-align: center;
+.contacts {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-buttons {
+  background-color: var(---navyblue, #2e2f42);
+}
+.h-section-one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.first-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
-  background-color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
-  border: 1px solid var(--cornflower, #e7e9fc);
 }
 
-button:hover,
-button:focus {
-  background: var(--ocean, #404bbf);
-  color: var(--white, #fff);
+.sec-h-three {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(---navyblue, #2e2f42);
 }
-
-.sec-h-three{
-font-weight: 500;
-    line-height: 1.2;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    color: var(---navyblue, #2e2f42);
-}
-.sec-p{
-line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: var(--slate, #434455);
+.sec-p {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
 }
 
 .h-section-thee {
@@ -134,10 +120,9 @@ line-height: 1.5;
   text-transform: capitalize;
 }
 
-section-four{
-  background-color: #F4F4FD;
+section-four {
+  background-color: #f4f4fd;
 }
-.footer{
+.footer {
   background-color: var(---navyblue, #2e2f42);
-
 }
