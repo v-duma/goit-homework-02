@@ -111,16 +111,33 @@ button:focus {
   color: var(--white, #fff);
 }
 
-.sec2-h3{
+.sec-h3{
 font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(---navyblue, #2e2f42);
 }
-.sec2-p{
+.sec-p{
 line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--slate, #434455);
+}
+
+.h2-section-3 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(---navyblue, #2e2f42);
+  text-transform: capitalize;
+}
+
+section-4{
+  background-color: #F4F4FD;
+}
+.footer{
+  background-color: var(---navyblue, #2e2f42);
+  
 }
