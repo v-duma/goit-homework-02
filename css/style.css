@@ -74,7 +74,7 @@ font-style: normal;
 .section-buttons{
     background-color: var(---navyblue, #2e2f42);
 }
-.h2-section-1{
+.h-section-one{
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -111,7 +111,7 @@ button:focus {
   color: var(--white, #fff);
 }
 
-.sec-h3{
+.sec-h-three{
 font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
@@ -125,7 +125,7 @@ line-height: 1.5;
     color: var(--slate, #434455);
 }
 
-.h2-section-3 {
+.h-section-thee {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -134,7 +134,7 @@ line-height: 1.5;
   text-transform: capitalize;
 }
 
-section-4{
+section-four{
   background-color: #F4F4FD;
 }
 .footer{
