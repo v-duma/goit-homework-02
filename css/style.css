@@ -133,7 +133,7 @@ body {
 .section-four {
   background-color: #f4f4fd;
 }
-.footer {
+.footerclass {
   background-color: var(--navyblue);
 }
 
@@ -141,8 +141,4 @@ body {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
-}
-
-.footer-logo {
-  color: var(--cloud);
 }
