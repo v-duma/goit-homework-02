@@ -31,6 +31,11 @@ body {
 
 .span-studio {
   color: #f4f4fd;
+  color: var(--navyblue);
+}
+
+.span-studio-header {
+  color: var(--navyblue);
 }
 
 .studio {
@@ -77,13 +82,6 @@ body {
   background-color: var(--navyblue);
 }
 
-.first-button:hover,
-.first-button:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
-  
-}
-
 .sec-h-three {
   font-weight: 500;
   line-height: 1.2;
@@ -102,9 +100,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(---navyblue, #2e2f42);
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .section-four {
@@ -137,10 +135,27 @@ body {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.04em;
-  color: #ffffff;
   cursor: pointer;
   color: var(--iris);
 }
 .sec-four-li{
   background-color: #FFFFFF;
+}
+.button-index{
+background-color: #4D5AE5;
+color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--iris);
+}
+
+.first-button:hover,
+.first-button:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+
 }
