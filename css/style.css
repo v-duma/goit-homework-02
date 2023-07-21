@@ -30,7 +30,7 @@ body {
 }
 
 .span-studio {
-  color: var(--navyblue);
+  color: #f4f4fd;
 }
 
 .studio {
@@ -77,29 +77,6 @@ body {
   background-color: var(--navyblue);
 }
 
-.section-buttons {
-  background-color: var(---navyblue, #2e2f42);
-}
-.h-section-one {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.first-button {
-  background-color: var(--cloud);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  color: var(--iris);
-}
-
 .first-button:hover,
 .first-button:focus {
   color: #FFFFFF;
@@ -141,4 +118,29 @@ body {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
+}
+
+.section-buttons {
+  background-color: var(---navyblue, #2e2f42);
+}
+.h-section-one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.first-button {
+  background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  color: var(--iris);
+}
+.sec-four-li{
+  background-color: #FFFFFF;
 }
