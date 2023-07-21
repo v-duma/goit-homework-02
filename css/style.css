@@ -31,7 +31,6 @@ body {
 
 .span-studio {
   color: #f4f4fd;
-  color: var(--navyblue);
 }
 
 .span-studio-header {
@@ -150,7 +149,12 @@ color: #ffffff;
   font-size: 16px;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--iris);
+}
+
+.button-index:hover,
+.button-index:focus {
+  background-color: #404BBF;
+
 }
 
 .first-button:hover,
